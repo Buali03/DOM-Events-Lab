@@ -27,11 +27,10 @@ function init() {
         num1 = "";
         num2 = "";
         operator = "";
-        displayElem.textContent = operator;
       } else {
         operator = element.textContent;
-        displayElem.textContent = operator;
       }
+      displayElem.textContent = operator;
     });
   });
 
